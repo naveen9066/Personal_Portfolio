@@ -1,0 +1,114 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Naveen | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="header-text">
+      <h1>Hi, I'm <span>Naveen</span></h1>
+      <h2>Web Developer | Python Programmer</h2>
+    </div>
+    <div class="floating-icons">
+      <span class="icon">🐍</span>
+      <span class="icon">💻</span>
+      <span class="icon">🎨</span>
+      <span class="icon">🌐</span>
+    </div>
+  </header>
+
+  <section id="about">
+    <div class="about-container">
+      <div class="about-text">
+        <h2>About Me</h2>
+        <p>I am Naveen, a passionate web developer and Python programmer. I build responsive websites, intuitive UI/UX designs, and scalable backend systems. I love solving real-world problems with elegant code and clean design. I’m actively applying for frontend and full-stack developer roles.</p>
+        <a href="images/Naveen-Resume.pdf" class="btn">Download CV</a>
+      </div>
+      <div class="about-image">
+        <img src="images/profile.jpg" alt="Naveen Profile">
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-list">
+      <ul>
+        <li>💻 <strong>Languages:</strong> HTML, CSS, JavaScript, Python</li>
+        <li>🎨 <strong>Design Tools:</strong> Figma, Canva, Adobe XD</li>
+        <li>🔁 <strong>Version Control:</strong> Git, GitHub</li>
+        <li>🗄️ <strong>Database:</strong> SQL, Supabase</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>🌾 PASUMAI CROPS</h3>
+      <p class="desc">An agri-support app for farmers including diagnosis, supplements, market info, and more.</p>
+    </div>
+    <div class="project">
+      <h3>💤 Drowsiness Detection</h3>
+      <p class="desc">Camera-based eye blink monitoring system for detecting driver drowsiness using Python & OpenCV.</p>
+    </div>
+    <div class="project">
+      <h3>💉 Diabetes Prediction</h3>
+      <p class="desc">Machine learning model that predicts diabetes using medical features from patient records.</p>
+    </div>
+  </section>
+
+  <section id="services">
+    <h2>Services</h2>
+    <div class="services-container">
+      <div class="service">
+        <img src="images/web design.png" alt="Web Design">
+        <p>Crafting modern, responsive websites tailored for users.</p>
+        <h3> Web Designing</h3>
+      </div>
+      <div class="service">
+        <img src="images/ui design.png" alt="UI Design">
+        <p>Designing sleek and intuitive interfaces using design tools.</p>
+        <h3>UI Designing</h3>
+      </div>
+      <div class="service">
+        <img src="images/poster.png" alt="Poster Design">
+        <p>Creative posters and social media content that stands out.</p>
+        <h3>Poster Designing</h3>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <form id="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Submit</button>
+      <div id="thankyou-msg">✅ Thank you! I'll get back to you soon.</div>
+    </form>
+  </section>
+
+  <script>
+    const form = document.getElementById('contact-form');
+    const thankyou = document.getElementById('thankyou-msg');
+
+    form.addEventListener('submit', function(e) {
+      e.preventDefault();
+      thankyou.style.display = 'block';
+      setTimeout(() => {
+        thankyou.style.display = 'none';
+        form.reset();
+      }, 3000);
+    });
+  </script>
+</body>
+</html>
