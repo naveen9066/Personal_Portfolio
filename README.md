@@ -1,12 +1,8 @@
 # 💼 Personal Portfolio Website
-
-Welcome to my **Personal Portfolio Website**, a modern, responsive website created using **HTML5** and **CSS3**.  
-This project highlights my professional skills, showcases my past projects, and allows visitors or recruiters to contact me easily.
 ----
 ## 🔗 Live Demo
 
-👉 [View My Portfolio](https://github.com/naveen9066/Personal_Portfolio/)  
-_(Replace the link after you deploy your portfolio to GitHub Pages, Netlify, or Vercel)
+👉 [View My Portfolio](https://github.com/naveen9066/Personal_Portfolio.git)  
 ----
 ## 📁 Project Structure
 portfolio/
