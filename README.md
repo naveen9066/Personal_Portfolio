@@ -42,7 +42,7 @@ portfolio/
 - **Name**: Naveen S  
 - **Role**: Web Developer / Designer  
 - **Email**: naveenjkkm9066@gmail.com.com  
-- **GitHub**: https://github.com/naveen9066/Personal_Portfolio
+- **GitHub**: https://github.com/naveen9066/Personal_Portfolio.git
 - **LinkedIn**: https://www.linkedin.com/in/naveensakthivel  
 ---
 ## 📥 How to Use
