@@ -40,7 +40,7 @@ portfolio/
 - **Email**: naveenjkkm9066@gmail.com.com  
 - **GitHub**: https://github.com/naveen9066/Personal_Portfolio.git
 - **LinkedIn**: https://www.linkedin.com/in/naveensakthivel
-- **website**:https://navi8090.neocities.org/Portfolio/  
+- **website**:https://pixhub.neocities.org/Portfolio/  
 ---
 ## 📥 How to Use
 
